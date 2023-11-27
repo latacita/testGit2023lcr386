@@ -50,5 +50,11 @@
 (31)	git push origin develop		Para que se reflejen los tags es necesario hacer un push 					de este
 (32)	git checkout feature/Ticket222
 (33)	git merge develop		
+(35)	git add .
+	git commit -m "Paso 35"
+(36)	git checkout develop
+(37)	git merge feature/Ticket222
+(38)	git checkout master
+(39)	git merge develop
 
 

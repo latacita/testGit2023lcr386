@@ -23,5 +23,16 @@
 (14)	git stash
 	git checkout feature/Ticket220
 
-	
+(18)	git stash apply
+	modificar fichero
+(19)	git add .
+	git commit -m "Paso 19"
+(20)	git checkout develop
+(21)	git branch feature/Ticket222
+(22)	git checkout feature/Ticket220	El merge seria fast-forward ya que este merge solo 
+					supondría un cambio en el puntero de develop que 
+					avanzaría a la última versión de la rama 
+					feature/Ticket220, ya que no se han llevado a 
+					cabo cambios en la develop 
+
 

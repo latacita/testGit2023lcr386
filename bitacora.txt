@@ -6,3 +6,11 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(01)	clone https://github.com/latacita/testGit2023lcr386
+(02)	modificar el fichero
+(03)	git add .
+	git commit -m "Paso 03"
+(04)	git pull origin master	     Verificar que me bajo la ultima version del remoto y si 						existiesen conflictos solventarlos (no es el caso)
+	git push origin master
+
+	

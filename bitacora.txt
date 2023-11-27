@@ -44,5 +44,11 @@
 (25)	git checkout develop
 (26)	git merge feature/Ticket220
 (27)	git merge feature/Ticket221	Resuelvo los conflictos existentes y reordeno los pasos
+(29)	git add .
+	git commit -m "Paso 29"
+(30)	git tag Step29
+(31)	git push origin develop		Para que se reflejen los tags es necesario hacer un push 					de este
+(32)	git checkout feature/Ticket222
+(33)	git merge develop		
 
 
